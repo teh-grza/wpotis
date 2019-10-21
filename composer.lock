@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bba12d576b493a9fa2645306875bc844",
+    "content-hash": "29f54b06c87366492d48932649186723",
     "packages": [
         {
             "name": "composer/installers",
@@ -326,6 +326,27 @@
             "time": "2017-01-27T20:40:31+00:00"
         },
         {
+            "name": "thinkshout/wp-otis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkshout/wp-otis.git",
+                "reference": "e2012edb49cb43e2a07de720de8690d9734f2b56"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "ThinkShout",
+                    "homepage": "https://thinkshout.com/"
+                }
+            ],
+            "description": "WordPress plugin for the Oregon Tourism Information System",
+            "time": "2019-08-27T17:14:58+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -386,7 +407,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/pantheon-advanced-page-cache.0.1.5.zip",
-                "reference": "tags/0.1.5",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -406,7 +427,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-native-php-sessions.0.6.2.zip",
-                "reference": "tags/0.6.2",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -426,7 +447,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.3.zip",
-                "reference": "1.3",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -994,9 +1015,9 @@
             "authors": [
                 {
                     "name": "Giuseppe Mazzapica",
+                    "role": "Developer",
                     "email": "giuseppe.mazzapica@gmail.com",
-                    "homepage": "https://gmazzap.me",
-                    "role": "Developer"
+                    "homepage": "https://gmazzap.me"
                 }
             ],
             "description": "Mocking utility for PHP functions and WordPress plugin API",
@@ -2419,6 +2440,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-08-03T14:08:16+00:00"
         },
         {
@@ -4420,6 +4442,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
+        "thinkshout/wp-otis": 20,
         "roave/security-advisories": 20,
         "wp-coding-standards/wpcs": 20
     },
