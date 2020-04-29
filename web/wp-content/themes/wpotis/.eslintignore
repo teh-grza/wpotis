@@ -1,6 +1,0 @@
-.cache
-dist
-node_modules
-vendor
-!.*.js
-src/js/babel-polyfill.min.js
