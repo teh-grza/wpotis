@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "489f3a697758c3cc14c492ecd94149fe",
+    "content-hash": "d7169ebcad71f7c77cae59e314303c75",
     "packages": [
         {
             "name": "composer/installers",
@@ -327,11 +327,11 @@
         },
         {
             "name": "thinkshout/wp-otis",
-            "version": "dev-log",
+            "version": "dev-history-log",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thinkshout/wp-otis.git",
-                "reference": "3ce910a04ae55d472f41737b098e70b1ec437859"
+                "reference": "165e75fa4b9bb6a67a960a82071b13c0ad62e983"
             },
             "type": "wordpress-plugin",
             "license": [
@@ -344,7 +344,7 @@
                 }
             ],
             "description": "WordPress plugin for the Oregon Tourism Information System",
-            "time": "2020-04-29T17:02:22+00:00"
+            "time": "2020-05-13T22:10:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
